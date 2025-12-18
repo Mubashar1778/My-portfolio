@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    scrollbar-width: none;
 
 }
 body{
@@ -530,34 +531,38 @@ p{
 }
 
 .labels{
-    font-size: 25px;
+    font-size: 15px;
     font-family: arial;
     color: white;
 }
 
 #firs{
-     background-color: black;
+    color: white;
+     background-color: #0A0F1F;
      height: 20px;
     border: 1px solid #5a9798;
     border-radius: 3px;
 }
 
 #las{
-     background-color: black;
+    color: white;
+     background-color: #0A0F1F;
      height: 20px;
     border: 1px solid #5a9798;
     border-radius: 3px;
 }
 
 #emai{
-    background-color: black;
+    color: white;
+    background-color: #0A0F1F;
     height: 20px;
     border-radius: 3px;
     border: 1px solid #5a9798;
 }
 
 #pho{
-     background-color: black;
+    color: white;
+     background-color: #0A0F1F;
      height: 20px;
     border-radius: 3px;
     border: 1px solid #5a9798;
@@ -572,11 +577,11 @@ p{
     border: 1px solid #5a9798;
     width: 330px;
     height: 20px;
-    background-color: black;
+    background-color: #0A0F1F;
 }
 
 .massage{
-     font-size: 25px;
+    font-size: 15px;
     font-family: arial;
     color: white;
     margin-top: 10px;
@@ -590,7 +595,7 @@ p{
     color: white;
     border: 1px solid #5a9798;
     border-radius: 4px;
-    background-color: black;
+    background-color: #0A0F1F;
 
 }
 
@@ -624,7 +629,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px 0px;
+    padding: 10px 0px;
     flex-wrap: wrap;
 }
 
@@ -646,27 +651,32 @@ p{
 }
 
 .fa-facebook{
-    background-color: #1877F2;
+    /* background-color: #1877F2; */
+    border: 2px solid white;
     color: white;
 }
 
 .fa-instagram{
-    background-color: #E4405F;
+    /* background-color: #E4405F; */
+    border: 2px solid white;
     color: white;
 }
 
 .fa-twitter{
-    background-color: #1DA1F2;
+    /* background-color: #1DA1F2; */
+    border: 2px solid white;
     color: white;
 }
 
 .fa-linkedin{
-    background-color: #0A66C2;
+    /* background-color: #0A66C2; */
+    border: 2px solid white;
     color: white;
 }
 
 .fa-pinterest{
-    background-color: #E60023;
+    /* background-color: #E60023; */
+    border: 2px solid white;
     color: white;
 }
 
